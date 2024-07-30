@@ -6,7 +6,7 @@ print(my_dict.get('Полтавская битва'))
 a={'Полтавская битва':1709,'Бородинское сражение':1812}
 my_dict.update(a)
 print(my_dict)
-del my_dict['Полтавская битва']
+print(my_dict.pop('Полтавская битва'))
 print(a.values())
 print(my_dict)
 
